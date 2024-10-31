@@ -86,14 +86,14 @@ function App() {
           </div>
         </section>
         <section>
-          <div className="py-4 flex gap-8">
-            <div className="w-1/3">
+          <div className="py-4 flex gap-6 items-center">
+            <div className="w-1/3 h-min">
               <img src={retroPCPhoto} alt="Retro PCs" className="h-full w-full object-fill" />
             </div>
-            <div className="flex flex-col w-2/3">
-              <span>01</span>
-              <h3>Reviving Retro PC's</h3>
-              <p>Text</p>
+            <div className="flex flex-col w-2/3 gap-2 h-min">
+              <span className="font-bold text-4xl custom-text-softred">01</span>
+              <h3 className="font-extrabold text-lg">Reviving Retro PC's</h3>
+              <p className="custom-text-darkgrayblue">What happens when old PCs are given modern upgrades?</p>
             </div>
           </div>
         </section>
