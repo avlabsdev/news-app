@@ -39,16 +39,16 @@ function App() {
       </header>
       <main className="container mx-auto flex flex-col gap-8 p-4">
         <section className="flex lg:flex-row flex-col gap-8">
-          <div className="lg:w-4/5 w-full bg-red-500">
-            <img src={webThreeMobilePhoto} alt="Web 3" className="lg:hidden flex" />
-            <img src={webThreeDesktopPhoto} alt="Web 3" className="hidden lg:flex" />
+          <div className="lg:w-4/5 w-full">
+            <img src={webThreeMobilePhoto} alt="Web 3" className="lg:hidden flex object-fill w-full" />
+            <img src={webThreeDesktopPhoto} alt="Web 3" className="hidden lg:flex object-fill w-full" />
             <div className="flex flex-col gap-4 py-4 mt-2">
-              <h1 className="text-5xl font-bold">The Bright Future of Web 3.0?</h1>
-              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-              <button className="py-4 px-12 bg-blue-500 font-semibold uppercase tracking-widest w-3/5">Read More</button>
+              <h1 className="text-5xl font-bold custom-text-verydarkblue">The Bright Future of Web 3.0?</h1>
+              <p className="custom-text-darkgrayblue">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+              <button className="py-4 px-12 custom-bg-softred custom-text-verydarkblue font-semibold uppercase tracking-widest w-3/5 mt-2">Read More</button>
             </div>
           </div>
-          <div className="lg:w-2/6 w-full py-4 bg-red-500">
+          <div className="lg:w-2/6 w-full py-4">
             <h2>New</h2>
             <ul>
               <li>
@@ -67,7 +67,7 @@ function App() {
           </div>
         </section>
         <section>
-          <div className="bg-red-500 py-4">
+          <div className="py-4">
             Top Three Articles Area
           </div>
         </section>

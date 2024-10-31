@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  font-size: 15px;
+}
+
 body {
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,4 +18,52 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.custom-text-softorange {
+  color: hsl(35, 77%, 62%);
+}
+
+.custom-bg-softorange {
+  background-color: hsl(35, 77%, 62%);
+}
+
+.custom-text-softred {
+  color: hsl(5, 85%, 63%);
+}
+
+.custom-bg-softred {
+  background-color: hsl(5, 85%, 63%);
+}
+
+.custom-text-offwhite {
+  color: hsl(36, 100%, 99%);
+}
+
+.custom-bg-offwhite {
+  background-color: hsl(36, 100%, 99%);
+}
+
+.custom-text-grayblue {
+  color: hsl(233, 8%, 79%);
+}
+
+.custom-bg-grayblue {
+  background-color: hsl(233, 8%, 79%);
+}
+
+.custom-text-darkgrayblue {
+  color: hsl(236, 13%, 42%);
+}
+
+.custom-bg-darkgrayblue {
+  background-color: hsl(236, 13%, 42%);
+}
+
+.custom-text-verydarkblue {
+  color: hsl(240, 100%, 5%);
+}
+
+.custom-bg-verydarkblue {
+  background-color: hsl(240, 100%, 5%);
 }
