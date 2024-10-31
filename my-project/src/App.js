@@ -52,16 +52,22 @@ function App() {
             <h2 className="text-4xl font-bold custom-text-softorange">New</h2>
             <ul className="flex flex-col -mt-4">
               <li className="flex flex-col gap-2 border-b border-gray-600 py-8">
-                <h3 className="font-semibold custom-text-offwhite text-xl">New Hydrogen VS Electric Cars</h3>
-                <p className="custom-text-grayblue">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                <a href="#/">
+                  <h3 className="font-semibold custom-text-offwhite text-xl">New Hydrogen VS Electric Cars</h3>
+                  <p className="custom-text-grayblue">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </a>
               </li>
               <li className="flex flex-col gap-2 border-b border-gray-600 py-8">
-                <h3 className="font-semibold custom-text-offwhite text-xl">The Downsides of AI Artistry</h3>
-                <p className="custom-text-grayblue">What are the possible adverse effects of on-demand AI image generation?</p>
+                <a href="#/">
+                  <h3 className="font-semibold custom-text-offwhite text-xl">The Downsides of AI Artistry</h3>
+                  <p className="custom-text-grayblue">What are the possible adverse effects of on-demand AI image generation?</p>
+                </a>
               </li>
               <li className="flex flex-col gap-2 pt-8 pb-2">
-                <h3 className="font-semibold custom-text-offwhite text-xl">Is VC Funding Drying Up?</h3>
-                <p className="custom-text-grayblue">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                <a href="#/">
+                  <h3 className="font-semibold custom-text-offwhite text-xl">Is VC Funding Drying Up?</h3>
+                  <p className="custom-text-grayblue">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </a>
               </li>
             </ul>
           </div>
