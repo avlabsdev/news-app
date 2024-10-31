@@ -23,6 +23,8 @@ import barsIcon from './images/bars-solid.svg';
 import webThreeMobilePhoto from './images/image-web-3-mobile.jpg';
 import webThreeDesktopPhoto from './images/image-web-3-desktop.jpg';
 import retroPCPhoto from './images/image-retro-pcs.jpg';
+import laptopPhoto from './images/image-top-laptops.jpg';
+import gamingPhoto from './images/image-gaming-growth.jpg';
 
 function App() {
   return (
@@ -85,7 +87,7 @@ function App() {
             </ul>
           </div>
         </section>
-        <section>
+        <section className="flex flex-col gap-2">
           <div className="py-4 flex gap-6 items-center">
             <div className="w-1/3 h-min">
               <img src={retroPCPhoto} alt="Retro PCs" className="h-full w-full object-fill" />
@@ -94,6 +96,26 @@ function App() {
               <span className="font-bold text-4xl custom-text-softred">01</span>
               <h3 className="font-extrabold text-lg">Reviving Retro PC's</h3>
               <p className="custom-text-darkgrayblue">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div className="py-4 flex gap-6 items-center">
+            <div className="w-1/3 h-min">
+              <img src={laptopPhoto} alt="Laptop keyboard" className="h-full w-full object-fill" />
+            </div>
+            <div className="flex flex-col w-2/3 gap-2 h-min">
+              <span className="font-bold text-4xl custom-text-softred">02</span>
+              <h3 className="font-extrabold text-lg">Top 10 Laptops of 2022</h3>
+              <p className="custom-text-darkgrayblue">Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div className="py-4 flex gap-6 items-center">
+            <div className="w-1/3 h-min">
+              <img src={gamingPhoto} alt="Retro PCs" className="h-full w-full object-fill" />
+            </div>
+            <div className="flex flex-col w-2/3 gap-2 h-min">
+              <span className="font-bold text-4xl custom-text-softred">03</span>
+              <h3 className="font-extrabold text-lg">The Growth of Gaming</h3>
+              <p className="custom-text-darkgrayblue">How the pandemic has sparked fresh opportunities.</p>
             </div>
           </div>
         </section>
