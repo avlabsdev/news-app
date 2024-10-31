@@ -39,21 +39,33 @@ function App() {
       </header>
       <main className="container mx-auto flex flex-col gap-8 p-4">
         <section className="flex lg:flex-row flex-col gap-8">
-          <div className="lg:w-4/5 w-full">
-            <img src={webThreeMobilePhoto} alt="Web 3" className="lg:hidden flex object-fill w-full" />
-            <img src={webThreeDesktopPhoto} alt="Web 3" className="hidden lg:flex object-fill w-full" />
+          <div className="lg:w-4/5 w-full h-fit">
+            <img src={webThreeMobilePhoto} alt="Web 3" className="lg:hidden flex object-fill w-full h-1/2" />
+            <img src={webThreeDesktopPhoto} alt="Web 3" className="hidden lg:flex object-fill w-full h-1/2" />
             <div className="flex flex-col gap-4 py-4 mt-2">
               <h1 className="text-5xl font-bold custom-text-verydarkblue">The Bright Future of Web 3.0?</h1>
               <p className="custom-text-darkgrayblue">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
               <button className="py-4 px-10 custom-bg-softred custom-text-verydarkblue font-semibold uppercase tracking-widest w-min mt-2">Read&nbsp;More</button>
             </div>
           </div>
-          <div className="lg:w-2/6 w-full p-5 custom-bg-verydarkblue flex flex-col gap-4">
-            <h2 className="text-4xl font-bold custom-text-softorange">New</h2>
+          <div className="lg:w-2/6 w-full lg:p-8 p-5 custom-bg-verydarkblue flex flex-col gap-4">
+            <h2 className="text-5xl font-bold custom-text-softorange">New</h2>
             <ul className="flex flex-col -mt-4">
               <li className="flex flex-col gap-2 border-b border-gray-600 py-8">
                 <a href="#/">
-                  <h3 className="font-semibold custom-text-offwhite text-xl">New Hydrogen VS Electric Cars</h3>
+                  <h3 className="font-semibold custom-text-offwhite text-xl lg:text-2xl">New Hydrogen VS Electric Cars</h3>
+                  <p className="custom-text-grayblue">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </a>
+              </li>
+              <li className="flex flex-col gap-2 border-b border-gray-600 py-8">
+                <a href="#/">
+                  <h3 className="font-semibold custom-text-offwhite text-xl lg:text-2xl">New Hydrogen VS Electric Cars</h3>
+                  <p className="custom-text-grayblue">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </a>
+              </li>
+              <li className="flex flex-col gap-2 border-b border-gray-600 py-8">
+                <a href="#/">
+                  <h3 className="font-semibold custom-text-offwhite text-xl lg:text-2xl">New Hydrogen VS Electric Cars</h3>
                   <p className="custom-text-grayblue">Will hydrogen-fueled cars ever catch up to EVs?</p>
                 </a>
               </li>
