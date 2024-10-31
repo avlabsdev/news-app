@@ -72,7 +72,7 @@ function App() {
           </div>
         </section>
       </main>
-      <footer className="p-4">
+      <footer className="container mx-auto p-4">
         <p>Footer</p>
       </footer>
     </div>
