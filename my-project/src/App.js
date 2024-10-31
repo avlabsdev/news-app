@@ -22,6 +22,7 @@ import logo from './logo.svg';
 import barsIcon from './images/bars-solid.svg';
 import webThreeMobilePhoto from './images/image-web-3-mobile.jpg';
 import webThreeDesktopPhoto from './images/image-web-3-desktop.jpg';
+import retroPCPhoto from './images/image-retro-pcs.jpg';
 
 function App() {
   return (
@@ -85,12 +86,19 @@ function App() {
           </div>
         </section>
         <section>
-          <div className="py-4">
-            Top Three Articles Area
+          <div className="py-4 flex gap-8">
+            <div className="w-1/3">
+              <img src={retroPCPhoto} alt="Retro PCs" className="h-full w-full object-fill" />
+            </div>
+            <div className="flex flex-col w-2/3">
+              <span>01</span>
+              <h3>Reviving Retro PC's</h3>
+              <p>Text</p>
+            </div>
           </div>
         </section>
       </main>
-      <footer className="container mx-auto p-4">
+      <footer className="container mx-auto p-4 pb-10">
         <p>Footer</p>
       </footer>
     </div>
