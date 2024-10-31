@@ -40,8 +40,8 @@ function App() {
       <main className="container mx-auto flex flex-col gap-8 p-4">
         <section className="flex lg:flex-row flex-col gap-8">
           <div className="lg:w-4/5 w-full">
-            <img src={webThreeMobilePhoto} alt="Web 3" className="lg:hidden flex object-fill lg:w-full" />
-            <img src={webThreeDesktopPhoto} alt="Web 3" className="hidden lg:flex object-fill lg:w-full" />
+            <img src={webThreeMobilePhoto} alt="Web 3" className="lg:hidden flex object-fill w-full" />
+            <img src={webThreeDesktopPhoto} alt="Web 3" className="hidden lg:flex object-fill w-full" />
             <div className="flex flex-col gap-4 py-4 mt-2">
               <h1 className="text-5xl font-bold custom-text-verydarkblue">The Bright Future of Web 3.0?</h1>
               <p className="custom-text-darkgrayblue">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
