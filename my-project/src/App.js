@@ -121,7 +121,7 @@ function App() {
         </section>
       </main>
       <footer className="container mx-auto p-4 pb-10">
-        <p>Footer</p>
+        <p>&copy; 2024 AV Labs. All rights reserved.</p>
       </footer>
     </div>
   );
