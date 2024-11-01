@@ -62,18 +62,6 @@ function App() {
               </li>
               <li className="flex flex-col gap-2 border-b border-gray-600 py-8">
                 <a href="#/">
-                  <h3 className="font-semibold custom-text-offwhite text-xl lg:text-2xl">New Hydrogen VS Electric Cars</h3>
-                  <p className="custom-text-grayblue">Will hydrogen-fueled cars ever catch up to EVs?</p>
-                </a>
-              </li>
-              <li className="flex flex-col gap-2 border-b border-gray-600 py-8">
-                <a href="#/">
-                  <h3 className="font-semibold custom-text-offwhite text-xl lg:text-2xl">New Hydrogen VS Electric Cars</h3>
-                  <p className="custom-text-grayblue">Will hydrogen-fueled cars ever catch up to EVs?</p>
-                </a>
-              </li>
-              <li className="flex flex-col gap-2 border-b border-gray-600 py-8">
-                <a href="#/">
                   <h3 className="font-semibold custom-text-offwhite text-xl">The Downsides of AI Artistry</h3>
                   <p className="custom-text-grayblue">What are the possible adverse effects of on-demand AI image generation?</p>
                 </a>
